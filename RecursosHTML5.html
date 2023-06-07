@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Funções do HTML5</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<!-- Títulos podem ser destacados do h1 ao h6 -->
+		<h1>Título usando a tag h1</h1>
+
+		<!-- tag p para parágrafos-->
+		<p> Parágrafos usam a tag p.</p>
+
+		<!-- tag br para quebrar/linhas-->
+		Pular linhas pode se usar a tag br.<br>
+
+		Colocar uma linha divisória pode se usar a tag hr.<br>
+
+		<!-- divisoria usando hr-->
+		<hr>
+		
+		<h1>Formatações de texto</h1>
+		<h2>Lista Desordenada (ul)</h2>
+		<!-- Lista genérica, listando sem ordenação os itens contidos na lista, existe o tipo circle e square tambem-->
+		<ul type="disc">
+			<!-- li para adicionar item na lista-->
+			<li>Esse é um texto <b>negrito</b></li>
+			<li>Esse é um texto <strong>negrito usando "strong"</strong></li>
+			<li>Esse é um texto <i>itálico</i></li>
+			<li>Esse é um texto <em>itálico usando "em"</em></li>
+			<li>Esse é um texto <u>sublinhado</u></li>
+			<li>Esse é um texto <strike>errado</strike></li>
+		</ul>
+
+		<br>
+
+		<h2>Lista Ordenada (ol)</h2>
+		
+		<!-- Lista ordenada, ordenando os itens contidos na lista, existe o tipo abc e ABC, assim como I II III e i ii iii-->
+		<ol type="1">
+			<li>Esse é um texto <b>negrito</b></li>
+			<li>Esse é um texto <strong>negrito usando "strong"</strong></li>
+			<li>Esse é um texto <i>itálico</i></li>
+			<li>Esse é um texto <em>itálico usando "em"</em></li>
+			<li>Esse é um texto <u>sublinhado</u></li>
+			<li>Esse é um texto <strike>errado</strike></li>
+		</ol>
+
+		<hr>
+		
+		<!-- imagens podem ser adicionadas a partir de link ou local virtual ou local, pode ser difinido o tamanho e largura da imagem tambem
+		     e tambem pode colocar a imagem em porcetagem em vez de numero fixo-->
+		<img src="https://www.adeptclippingpath.com/wp-content/uploads/2022/12/A-Cat-with-Rainbow-Background.jpg" height="200" width="200">
+
+		<hr>
+
+		<!-- links tambem podem ser colocados, seja de forma virtual ou local usando a tag a e colocando o link apos o href-->
+		<a href="file:///C:/Users/Matheus/Documents/MatheusWilliam/WebDesign/WebDesingDevelopment/RecursosHTML5.html">Entre no link</a>
+
+		<hr>
+
+		<h2>Produtos</h2>
+
+		<!-- border define a grossura das linhas, e o width para o tamanho da tabela, pode ser colocado em porcetagem em vez de numero fixo o tamanho da tabela
+			 pode ser colocado imagem dentro da tabela como item, assim como links -->
+		<table border="2" width="300">
+		
+		<!-- a sigla tr cria linha e o td adiciona itens a linha, e o th e o escopo do dos itens em negrito-->
+			<tr>
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Preço</th>
+			</tr>
+
+			<tr>
+				<td>001</td>
+				<td>Notebook</td>
+				<td>R$ 2.499,99</td>
+			</tr>
+
+			<tr>
+				<td>002</td>
+				<td>Mousepad</td>
+				<td>R$ 49,99</td>
+			</tr>
+
+			<tr>
+				<!-- colspan mescla colunas e rowspan mescla linha-->>
+				<td rowspan="2">Desconto</td>
+				<td colspan="2">Cumpom R$ -10,00</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">Cumpom R$ -5,00</td>
+			</tr>
+			
+		</table>
+			
+	</body>
+</html>
