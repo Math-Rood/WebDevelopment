@@ -96,6 +96,46 @@
 			</tr>
 			
 		</table>
+
+		<h2>Login</h2>
+		<form action="process.php">
+
+			Login:<br>
+			<input type="text" name="loginInput"/><br>
+			Senha:<br>
+			<input type="password" name="passwordInput"/><br>
+
+			<input type="submit" value="Logar"/>
+
+		</form>
+
+		<h2>Cadastre-se</h2>
+		<form action="process.php">
+
+			Login:<br>
+			<input type="text" name="loginRegisterInput"/><br>
+			Gênero:<br>
+			<!-- radio e uma lista de varios objetos que so uma pode ser selecionada-->
+			<input type="radio" name="gender" value="M"/> Masculino<br>
+			<input type="radio" name="gender" value="F"/> Feminino<br>
+			Interesse:<br>
+			<!-- check box e uma lista que se pode selecionar varios objetos-->
+			<input type="checkbox" name="interesses"/> Futebol<br>
+			<input type="checkbox" name="interesses"/> Cursos<br>
+			<input type="checkbox" name="interesses"/> Moda<br>
+			Estado:<br>
+			<!-- select e uma lista agrupada que agrupa objetos e uma so pode ser selecionada-->
+			<select name="estado">
+				<option value="sp">SP</option>
+				<option value="rj">RJ</option>
+				<option value="am">AM</option>
+			</select><br>
+			Observações:<br>
+			<textarea></textarea><br>
+
+			<input type="submit" value="Cadastrar"/>
+
+		</form>
 			
 	</body>
 </html>
