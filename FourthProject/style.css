@@ -1,0 +1,37 @@
+/* Modelo Caixa (padding e margin) */
+.contend{
+    border: 1px solid red;
+    /*o padding e o espaçamento interno e contabliza para o width geral
+    se eu colocar so padding, ele contabiliza espacamento
+    no conteudo de cima, direita, baixo e esquerda ou so
+    colocar um espaçamento geral que é igual nos 4 lados
+    ou colocar espaçamento geral de cima-baixo esquerda-direita*/
+    padding: 20px; 
+    /*ja o margin e o espaçamento entre as divs e apesar de colocar
+    um espaçamento entre elas, se tiverem o mesmo tamanho elas nao
+    se somam e o espaçamento maior sera o aplicado*/
+    margin: 10px;
+    width: 150px;
+}
+
+/* Elementos Flutuantes (float)
+serve para colocar os elementos de uma nova forma dentro da pagina
+usando a tag float. Usando essa funçao e possivel ordenar certos
+conteudos para esquerda ou direita em vez de somente para baixo.
+Nota que eles ficam concorrendo pelo mesmo espaço
+E usando a tag clear voce remove um elemento de um certo fluxo
+podendo ser a direita, esquerda, ambos ou nenhum
+Usando uma div no final de um conjunto de divs com uma class que 
+tenha clear como tag dentro, ela vai ajeitar o fluxo dessas divs
+aninhadas */
+.elements{
+    background: gray;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.clear{
+    clear: right;
+}
