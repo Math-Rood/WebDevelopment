@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recursos CSS</title>
+        <meta charset="utf-8">
+    </head>
+    <!--Internal Style é uma modificação feita dentro do código para usar seletores que modificam os objetos em amplo-->
+    <!-- para definir uma classe primeiro se sinaliza com .nomeclasse{} e dentro da classe irá se feita modificações
+    especificas para serem utilizadas no código-->
+    <!-- id são definidos com #nomeid{} e eles definem a estrutura geral do site, sendo possivel somente um id por pagina-->
+    <style type="text/css">
+        p{color: red;}
+        h1{color: blue;}
+        .bluecolor {
+            color:blue;
+        }
+        #principal{
+            background: gray;
+        }
+    </style>
+    <body id="principal">
+        <!-- Com a utilização de divs dentro do codigo, a estruturação do site fica muito melhor
+        <div>
+            <div id="header">
+                <img src="images/image.png">
+                <ul>
+                    <li>Home</li>
+                    <li>Quem somos</li>
+                    <li>Contatos</li>
+                </ul>
+            </div>
+
+            <div id="principal-config">
+                <div class="column">
+                    Coluna 1
+                </div>
+                <div class="column">
+                    Coluna 2
+                </div>
+                <div class="column">
+                    Coluna 3
+                </div>
+            </div>
+        </div>
+        -->
+        
+        <!-- Inline Style é a abordagem do CSS3 que aborda mudanças em um objeto específico como por exemplo <p style=""-->
+        <h1>Estilo CSS (cascading style sheets)</h1> 
+        <!--  p style=" color: red;" -->
+        <p class="bluecolor">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.
+        </p>
+    </body>
+</html>

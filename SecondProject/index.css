@@ -1,0 +1,38 @@
+body{
+    background-image: red url('src/images/amazon.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#top{
+    background: blue;
+}
+#contend{
+    border-color: red green yellow blue;
+    border-width: 15px 10px 5px 1px;
+    border-style: solid dotted dashed outset;
+}
+#lower{
+    background: green;
+}
+.formatation{
+    color: #c1400c;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product{
+    background: gray;
+    margin:10px;
+}
+.negrito{
+    font-weight: bold;
+}
+.italico{
+    font-style: italic;
+}
+.sublinhado{
+    text-decoration: underline;
+}
+.textoestilizado{
+    font: bold 40px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <title>Recursos CSS 2</title>
+    <head>
+        <!--
+            Textos
+            px -> tamanho fixo, o padrao da fonte e 16px
+            % -> tamanho relativo, 100% equivale a 16px
+            em -> tamanho relativo ao container pai, 1em equivale ao tamanho padrao do container pai(div)
+            font-weight: normal ou bold(negrito de 100 a 900)
+            font-style: italic (italico)
+            text-decoration: underline (sublinhado) ou line-through (riscado/errado)
+        -->
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+
+    <body>
+        <div id="top">
+            <img src="src/images/amazon.png" width="200">
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Contatos</li>
+            </ul>
+        </div>
+        <div id="contend">
+            <div class="product">
+                Produto 1
+            </div>
+            <div class="product">
+                Produto 2
+            </div>
+            <div class="product">
+                Produto 3
+            </div>
+        </div>
+        <!-- span funciona como um div que funciona da mesma maneira que uma modifcação inline-->
+        <div id="lower">
+            Todos os <span class="formatation">direitos</span> reservados
+        </div>
+    </body>
+</html>
