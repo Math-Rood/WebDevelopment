@@ -1,3 +1,14 @@
+/* margin lateral com auto faz com que o conteudo seja centralizado perante a tela nao tendo problema em expandir ou retrair o navegador*/
+body{
+    background: #007fc7;
+}
+
+#container{
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
 /* Modelo Caixa (padding e margin) */
 .contend{
     border: 1px solid red;
@@ -35,3 +46,60 @@ aninhadas */
 .clear{
     clear: right;
 }
+
+.blocking{
+    border: 1px solid red;
+    display: block;
+}
+
+.inlining{
+    border: 1px solid red;
+    display: inline;
+}
+
+.inlining-block{
+    border: 1px solid red;
+    display:inline-block;
+}
+
+/* por padrao a position: static em todo fluxo dos elementos de uma pagina*/
+/*no caso de sobreposição, o z-index pode definir uma hierarquia de exibição dos elementos*/
+/*relative posiciona o conteudo ou objeto baseado na posição inicial dele*/
+.relative{
+    border: 1px solid red;
+    position: relative;
+    /* manipula-se o relative com top, down, right e left*/
+    top: 20px;
+    right: 80px;
+    z-index: 0;
+}
+/*absolute posiciona o conteudo ou objeto baseado no conteiner que ele esta, se alinhado com os pixel desse conteiner que nao tenha posiçao padrao */
+.absolute{
+    border: 1px solid red;
+    position: absolute;
+    /* manipula-se o relative com top, down, right e left*/
+    top: 0px;
+    right: 80px;
+    z-index: 1;
+}
+
+/*fixed posiciona o conteudo ou objeto baseado na sua posição inicial e ao rolar a pagina para baixo, ele continua acompanhado, como se fosse um pop-up*/
+.fixed{
+    border: 1px solid red;
+    position: fixed;
+    /* manipula-se o relative com top, down, right e left*/
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+/*manipular e customizar os links
+link se trata de manipular o estado de um link que nao foi clicado e visitado
+visited se trata de manipular o estado de um link que foi clicado e visitado
+hover se trata de manipular o estado de um link ao passar o mouse por cima
+active se trata de manipular o estado de um link ao ser clicado com o mouse*/
+a{}
+a:link{}
+a:visited{}
+a:hover{}
+a:active{}   
