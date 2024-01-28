@@ -1,0 +1,75 @@
+/*Limpar formatações padrões*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*1em equivale a 16px que é padrão*/
+    font-size: 1em;
+    /*Primeira fonte a ser procurada, a segunda fonte e a padrão de qualquer navegador*/
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*Layouts*/
+#header{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#header-logo, #header-menu{
+    padding: 10px;
+}
+
+#principal{
+    /*940px e o padrao do mercado de ocupação de tela*/
+    width: 940px;
+    margin: 0 auto;
+}
+
+#principal-post, #principal-sidebar{
+    background: #fff;
+}
+
+#principal-post{
+    width: 660px;
+    float: left;
+}
+#principal-sidebar{
+    width: 240px;
+    float: right;
+}
+
+#principal-baseboard{
+    float: both;
+    text-align: center;
+    padding: 20px;
+    background: #CCC;
+
+}
+
+/*Formatação do Menu de Cabeçalho*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+a:hover{
+    color: #f7b600;
+    background: #fff; 
+}
+
+.span-white{
+    color: #fff;
+}
+
